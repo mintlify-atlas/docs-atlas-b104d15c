@@ -1,0 +1,150 @@
+{
+  "projectType": "framework",
+  "projectName": "Mercur",
+  "projectDescription": "Open-source multi-vendor marketplace platform for B2B & B2C built on MedusaJS",
+  "theme": "almond",
+  "primaryColor": "#4e28d6",
+  "lightColor": "#a48cdc",
+  "darkColor": "#e9e4f2",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/marketplace-models",
+              "concepts/vendors",
+              "concepts/multi-vendor-checkout",
+              "concepts/workflows"
+            ]
+          },
+          {
+            "group": "Modules",
+            "pages": [
+              "modules/overview",
+              "modules/b2c-core",
+              "modules/commission",
+              "modules/reviews",
+              "modules/requests",
+              "modules/algolia",
+              "modules/resend",
+              "modules/payment-stripe-connect",
+              "modules/stripe-tax-provider"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment-variables",
+              "configuration/database",
+              "configuration/modules",
+              "configuration/admin-panel"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/custom-modules",
+              "development/workflows",
+              "development/api-routes",
+              "development/admin-customization"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/overview",
+              "deployment/production-checklist",
+              "deployment/docker"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Framework",
+            "pages": [
+              "api/framework/types",
+              "api/framework/utilities",
+              "api/framework/links"
+            ]
+          },
+          {
+            "group": "Workflows",
+            "pages": [
+              "api/workflows/overview",
+              "api/workflows/seller",
+              "api/workflows/payout",
+              "api/workflows/order"
+            ]
+          },
+          {
+            "group": "Store API",
+            "pages": [
+              "api/store/products",
+              "api/store/sellers",
+              "api/store/reviews",
+              "api/store/wishlist"
+            ]
+          },
+          {
+            "group": "Vendor API",
+            "pages": [
+              "api/vendor/products",
+              "api/vendor/orders",
+              "api/vendor/payouts",
+              "api/vendor/settings"
+            ]
+          },
+          {
+            "group": "Admin API",
+            "pages": [
+              "api/admin/sellers",
+              "api/admin/commissions",
+              "api/admin/requests",
+              "api/admin/configuration"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-vendor marketplace platform",
+    "Built on MedusaJS v2",
+    "B2B and B2C support",
+    "Modular plugin architecture",
+    "Seller/vendor management",
+    "Commission system",
+    "Split order payments",
+    "Product reviews and ratings",
+    "Algolia search integration",
+    "Stripe Connect payments",
+    "Admin and vendor panels",
+    "Customizable workflows"
+  ],
+  "publicApiSurface": [
+    "@mercurjs/framework",
+    "@mercurjs/b2c-core",
+    "@mercurjs/commission",
+    "@mercurjs/reviews",
+    "@mercurjs/requests",
+    "@mercurjs/algolia",
+    "@mercurjs/resend",
+    "@mercurjs/payment-stripe-connect",
+    "@mercurjs/stripe-tax-provider"
+  ]
+}
